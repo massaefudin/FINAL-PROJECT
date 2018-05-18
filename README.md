@@ -1,4 +1,4 @@
 # FINAL-PROJECT PEMROGRAMAN WEB
-1. SAEFUDIN IRSYAD     16.11.0050 2. ARIK ANDRIAN PUTRA PURWAJANU  16.11.0055 <br>
-Abstraksi 
-Seiring dengan semakin berkembangnya dunia teknologi dan informasi. Website merupakan suatu media informasi yang menawarkan berbagai kemudahan dalam menyajikan informasi. Kecepatan dan kenyamanan merupakan nilai positif adanya internet. Pembuatan web ini bertujuan memberikan informasi  Olah raga terutama sepak bola yang saat ini sangat digemari banyak kalangan dari anak anak sampai orang tua. Didalm  web ini kami menyediakan informasi seperti jadwal, berita, heighlight seputar sepak bola.
+#1. SAEFUDIN IRSYAD     16.11.0050 2. ARIK ANDRIAN PUTRA PURWAJANU  16.11.0055 
+#Abstraksi 
+#Seiring dengan semakin berkembangnya dunia teknologi dan informasi. Website merupakan suatu media informasi yang menawarkan berbagai kemudahan dalam menyajikan informasi. Kecepatan dan kenyamanan merupakan nilai positif adanya internet. Pembuatan web ini bertujuan memberikan informasi  Olah raga terutama sepak bola yang saat ini sangat digemari banyak kalangan dari anak anak sampai orang tua. Didalm  web ini kami menyediakan informasi seperti jadwal, berita, heighlight seputar sepak bola.
