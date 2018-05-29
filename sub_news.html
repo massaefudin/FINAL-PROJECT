@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+
+
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -38,8 +41,7 @@
 					      </li>
 					      <li class="nav-item">
 					        	<a class="nav-link" href="#"><p class="text-light">Schedule</p></a>
-					      </li>
-				      
+					      </li> 
 				    </ul>
 				    <form class="form-inline my-2 my-lg-0">
 				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,9 +62,13 @@
 	  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>	
-
 		<br>
-	<div class="card-deck">
+<div ng-app="">
+  <form>
+  show more news
+    <input type="checkbox" ng-model="myVar">
+  </form>
+  <div ng-show="myVar" class="card-deck">
 		  <div class="card">
           <div style="overflow: hidden;height: 250px;">
             <img  class="card-img-top" src="assets/img/socer8.jpg" alt="Card image cap">
@@ -76,7 +82,6 @@
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.></p>
           </div>
-        
       </div>
       <div class="card">
           <div style="overflow: hidden;height: 250px;">
@@ -91,11 +96,10 @@
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.>.</p>
           </div>
-        
       </div>
         <div class="card">
           <div style="overflow: hidden;height: 250px;">
-            <img  class="card-img-top" src="assets/img/socer6.jpg" alt="Card image cap">
+            <img  class="card-img-top" src="assets/img/sepakbola.jpg" alt="Card image cap">
           </div>
           <div class="card-body">
               <a href="sub_news3.html"> <h5 class="card-title">judl berita 3</h5></a> 
@@ -109,7 +113,7 @@
       </div>
       <div class="card">
         <div style="overflow: hidden;height: 250px;">
-          <img class="card-img-top" src="assets/img/socer7.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/pirlo0.jpg" alt="Card image cap">
         </div>
         <div class="card-body">
          <a href="sub_news4.html"> <h5 class="card-title">judl berita 4</h5></a>
@@ -119,22 +123,19 @@
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.></p>
-        </div>
-        
+        </div>   
       </div>
 	</div>
 	</div>
+</div>
+	
 	<div class="card-footer" style="margin-top: 25px;">
 	      <small class="text-muted"><p class="text-center"> Last updated 3 mins ago</p></small>
 	</div>
 </div>
-	
-	
-
-
-
 <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/angular.min.js"></script>
 </body>
 </html>
