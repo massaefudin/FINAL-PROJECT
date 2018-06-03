@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/share.css">
 
     <title>La Liga</title>
   </head>
@@ -18,31 +19,7 @@
     <div ng-include="'slide.html'"></div>
   </div>
 <br>
-  <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-link bg-dark">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-             <a class="nav-link active" href="#">La Liga</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Premier League</a>
-         </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">League 1</a>
-         </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Serie A</a>
-           </li>
-           <li class="nav-item">
-              <a class="nav-link" href="#">Bundes Liga</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">Gojek Liga 1</a>
-            </li>
-        </ul>
-</nav>
-  </div>
-
+<div ng-include="'navclasmen.html'"></div>
 <br>
 <div class="container">
   <table class="table">
@@ -347,7 +324,7 @@
     </div>
   </div>
 </div>
-
+<div ng-include="'footer.html'"></div>
 </div>
 <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
