@@ -10,7 +10,7 @@
 
     <title>Premier League</title>
   </head>
-  <body>
+  <body> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -20,83 +20,40 @@
 
 
  
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-          <a class="navbar-brand" href="index.html"><p class="text-light">Ofside</p></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="news.html"><p class="text-light">News</p><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hilight.html"><p class="text-light">Highlight</p></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Team
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="teamlist.html">Team List</a>
-                      <a class="dropdown-item" href="singleteam">Single Team</a>     
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kelasemenlaliga.html"><p class="text-light">Club Ranking</p></a>
-                </li>
-              
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-    </nav>iv>
-		</nav>
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/1.jpg" class="img-fluid" alt="Responsive image" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/2.jpg" class="img-fluid" alt="Responsive image" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/3.jpg" class="img-fluid" alt="Responsive image">
-    </div>
+   <div class="container" ng-app="">   
+    <div ng-include="'nav.html'"></div>
+ 
+  <div class="container" ng-app="">   
+    <br>
+    <div ng-include="'slide.html'"></div>
   </div>
-</div>
-
-<nav class="navbar navbar-expand-lg navbar-link bg-dark">
-
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">La Liga </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Premier League</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">League 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Serie A</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Bundes Liga</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gojek Liga 1</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 <br>
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-link bg-dark">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+             <a class="nav-link active" href="kelasemenlaliga.html">La Liga</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kelasemenpremierleague.html">Premier League</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kelasemenligue1.html">League 1</a>
+         </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kelasemenseriea.html">Serie A</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="kelasemenbundesliga.html">Bundes Liga</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="kelasemenligagojek.html">Gojek Liga 1</a>
+            </li>
+        </ul>
+</nav>
+  </div>
+<br>
+<div class="container">
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -163,7 +120,7 @@
     </tr>
      <tr>
       <th scope="row">5</th>
-      <td>Madura United</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/madura.jpeg" alt="image">Madura United</td>
       <td>10</td>
       <td>5</td>
       <td>2</td>
@@ -175,7 +132,7 @@
     </tr>
      <tr>
       <th scope="row">6</th>
-      <td>Sriwijaya FC</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/sriwijaya.jpeg" alt="image">Sriwijaya FC</td>
       <td>11</td>
       <td>4</td>
       <td>4</td>
@@ -187,7 +144,7 @@
     </tr>
      <tr>
       <th scope="row">7</th>
-      <td>Persib Bandung</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/persib.png" alt="image">Persib Bandung</td>
       <td>9</td>
       <td>4</td>
       <td>3</td>
@@ -199,7 +156,7 @@
     </tr>
      <tr>
       <th scope="row">8</th>
-      <td>PSMS</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/psms.jpeg" alt="image">PSMS</td>
       <td>11</td>
       <td>5</td>
       <td>0</td>
@@ -211,7 +168,7 @@
     </tr>
      <tr>
       <th scope="row">9</th>
-      <td>Perseru Serui</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/perseru.png" alt="image">Perseru Serui</td>
       <td>10</td>
       <td>4</td>
       <td>2</td>
@@ -223,7 +180,7 @@
     </tr>
      <tr>
       <th scope="row">10</th>
-      <td>Persija Jakarta</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/persija.png" alt="image">Persija Jakarta</td>
       <td>8</td>
       <td>4</td>
       <td>1</td>
@@ -235,7 +192,7 @@
     </tr>
      <tr>
       <th scope="row">11</th>
-      <td>Persebaya</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/persebaya.png" alt="image">Persebaya</td>
       <td>9</td>
       <td>3</td>
       <td>4</td>
@@ -247,7 +204,7 @@
     </tr>
      <tr>
       <th scope="row">12</th>
-      <td>Bali United</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/bali.png" alt="image">Bali United</td>
       <td>11</td>
       <td>3</td>
       <td>4</td>
@@ -259,7 +216,7 @@
     </tr>
      <tr>
       <th scope="row">13</th>
-      <td>Borneo FC</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/borneo.jpeg" alt="image">Borneo FC</td>
       <td>11</td>
       <td>3</td>
       <td>4</td>
@@ -271,7 +228,7 @@
     </tr>
      <tr>
       <th scope="row">14</th>
-      <td>MitraKukar</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/kukar.png" alt="image">MitraKukar</td>
       <td>11</td>
       <td>4</td>
       <td>1</td>
@@ -283,7 +240,7 @@
     </tr>
      <tr>
       <th scope="row">15</th>
-      <td>Bhayamgkara</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/bhayangkara.jpeg" alt="image">Bhayangkara</td>
       <td>11</td>
       <td>3</td>
       <td>4</td>
@@ -295,7 +252,7 @@
     </tr>
      <tr>
       <th scope="row">16</th>
-      <td>PS TNI</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/pstira.jpeg" alt="image">PS Tira</td>
       <td>11</td>
       <td>4</td>
       <td>1</td>
@@ -307,7 +264,7 @@
     </tr>
      <tr>
       <th scope="row">17</th>
-      <td>PSIS</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/psis.png" alt="image">PSIS</td>
       <td>11</td>
       <td>3</td>
       <td>2</td>
@@ -319,7 +276,7 @@
     </tr>
      <tr>
       <th scope="row">18</th>
-      <td>Arema FC</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/gojek/arema.jpeg" alt="image">Arema FC</td>
       <td>11</td>
       <td>2</td>
       <td>3</td>
@@ -331,6 +288,7 @@
     </tr>
   </tbody>
 </table>
+</div>
 
 <br>
 
@@ -338,38 +296,38 @@
 
 <div class="card-group">
   <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/ronaldo.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/gojek/fernando.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Cristiano Ronaldo</h5>
-      <p class="card-text">37 Goal</p>
+      <h5 class="card-title">Fernando Rodriguez</h5>
+      <p class="card-text">9 Goal</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/asensio.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/gojek/ezechiel.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Marco Asensio</h5>
-      <p class="card-text">29 Goal</p>
+      <h5 class="card-title">Ezechiel Ndouasel</h5>
+      <p class="card-text">9 Goal</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/griezman.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/gojek/packer.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Antoine Griezman</h5>
-      <p class="card-text">29 Goal</p>
+      <h5 class="card-title"> Douglas Packer</h5>
+      <p class="card-text">7 Goal</p>
     </div>
   </div>
     <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/costa.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/gojek/rakic.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Diego Costa</h5>
-      <p class="card-text">27 Goal</p>
+      <h5 class="card-title">Aleksandar Rakic</h5>
+      <p class="card-text">7 Goal</p>
     </div>
   </div>
     <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/bale.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/gojek/loris.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Gareth Bale</h5>
-      <p class="card-text">26 Goal</p>
+      <h5 class="card-title">Loris Arnaud</h5>
+      <p class="card-text">6 Goal</p>
     </div>
   </div>
 </div>
@@ -377,5 +335,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+<script src="assets/js/angular.min.js"></script>
   </body>
 </html>

@@ -10,7 +10,7 @@
 
     <title>Premier League</title>
   </head>
-  <body>
+  <body> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -19,83 +19,40 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 
+ <div class="container" ng-app="">   
+    <div ng-include="'nav.html'"></div>
  
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-          <a class="navbar-brand" href="index.html"><p class="text-light">Ofside</p></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="news.html"><p class="text-light">News</p><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hilight.html"><p class="text-light">Highlight</p></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Team
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="teamlist.html">Team List</a>
-                      <a class="dropdown-item" href="singleteam">Single Team</a>     
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kelasemenlaliga.html"><p class="text-light">Club Ranking</p></a>
-                </li>
-              
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-    </nav>
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/1.jpg" class="img-fluid" alt="Responsive image" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/2.jpg" class="img-fluid" alt="Responsive image" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/3.jpg" class="img-fluid" alt="Responsive image">
-    </div>
+  <div class="container" ng-app="">   
+    <br>
+    <div ng-include="'slide.html'"></div>
   </div>
-</div>
-
-<nav class="navbar navbar-expand-lg navbar-link bg-dark">
-
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">La Liga </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Premier League</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">League 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Serie A</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Bundes Liga</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gojek Liga 1</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 <br>
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-link bg-dark">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+             <a class="nav-link active" href="kelasemenlaliga.html">La Liga</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kelasemenpremierleague.html">Premier League</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kelasemenligue1.html">League 1</a>
+         </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kelasemenseriea.html">Serie A</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="kelasemenbundesliga.html">Bundes Liga</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="kelasemenligagojek.html">Gojek Liga 1</a>
+            </li>
+        </ul>
+</nav>
+  </div>
+<br>
+<div class="container">
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -114,7 +71,7 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Man City</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/mc.png" alt="image">Man City</td>
       <td>38</td>
       <td>32</td>
       <td>4</td>
@@ -126,7 +83,7 @@
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Man United</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/mu.png" alt="image">Man United</td>
       <td>38</td>
       <td>25</td>
       <td>6</td>
@@ -138,7 +95,7 @@
     </tr>
      <tr>
       <th scope="row">3</th>
-      <td>Tottenham</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/totenham.png" alt="image">Tottenham</td>
       <td>38</td>
       <td>23</td>
       <td>8</td>
@@ -150,7 +107,7 @@
     </tr>
      <tr>
       <th scope="row">4</th>
-      <td>Liverpool</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/liverpool.png" alt="image">Liverpool</td>
       <td>38</td>
       <td>21</td>
       <td>12</td>
@@ -162,7 +119,7 @@
     </tr>
      <tr>
       <th scope="row">5</th>
-      <td>Chelsea</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/chelsea.png" alt="image">Chelsea</td>
       <td>38</td>
       <td>21</td>
       <td>7</td>
@@ -174,7 +131,7 @@
     </tr>
      <tr>
       <th scope="row">6</th>
-      <td>Arsenal</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/arsenal.png" alt="image">Arsenal</td>
       <td>38</td>
       <td>19</td>
       <td>6</td>
@@ -186,7 +143,7 @@
     </tr>
      <tr>
       <th scope="row">7</th>
-      <td>Burnley</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/burnly.png" alt="image">Burnley</td>
       <td>38</td>
       <td>14</td>
       <td>12</td>
@@ -198,7 +155,7 @@
     </tr>
      <tr>
       <th scope="row">8</th>
-      <td>Everton</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/everon.png" alt="image">Everton</td>
       <td>38</td>
       <td>13</td>
       <td>10</td>
@@ -210,7 +167,7 @@
     </tr>
      <tr>
       <th scope="row">9</th>
-      <td>Liecester</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/liecester.jpeg" alt="image">Liecester</td>
       <td>38</td>
       <td>12</td>
       <td>11</td>
@@ -222,7 +179,7 @@
     </tr>
      <tr>
       <th scope="row">10</th>
-      <td>Newcastle</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/newcaastle.png" alt="image">Newcastle</td>
       <td>38</td>
       <td>12</td>
       <td>8</td>
@@ -234,7 +191,7 @@
     </tr>
      <tr>
       <th scope="row">11</th>
-      <td>Crystal Palace</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/crystalpalace.jpeg" alt="image">Crystal Palace</td>
       <td>38</td>
       <td>11</td>
       <td>11</td>
@@ -246,7 +203,7 @@
     </tr>
      <tr>
       <th scope="row">12</th>
-      <td>Bournemouth</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/afc.png" alt="image">Bournemouth</td>
       <td>38</td>
       <td>11</td>
       <td>11</td>
@@ -258,7 +215,7 @@
     </tr>
      <tr>
       <th scope="row">13</th>
-      <td>West Ham</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/westham.png" alt="image">West Ham</td>
       <td>38</td>
       <td>10</td>
       <td>12</td>
@@ -306,7 +263,7 @@
     </tr>
      <tr>
       <th scope="row">17</th>
-      <td>Southampton</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/southampon.png" alt="image">Southampton</td>
       <td>38</td>
       <td>7</td>
       <td>15</td>
@@ -318,7 +275,7 @@
     </tr>
      <tr>
       <th scope="row">18</th>
-      <td>Swansea</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/swansea.png" alt="image">Swansea</td>
       <td>38</td>
       <td>8</td>
       <td>9</td>
@@ -330,7 +287,7 @@
     </tr>
      <tr>
       <th scope="row">19</th>
-      <td>Stoke City</td>
+      <td><img class="img-fluid" width="27px" height="30px" src="assets/img/premier/stokecity.png" alt="image">Stoke City</td>
       <td>38</td>
       <td>7</td>
       <td>12</td>
@@ -354,6 +311,7 @@
     </tr>
   </tbody>
 </table>
+</div>
 
 <br>
 
@@ -361,38 +319,38 @@
 
 <div class="card-group">
   <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/ronaldo.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/premier/mosalah.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Cristiano Ronaldo</h5>
-      <p class="card-text">37 Goal</p>
+      <h5 class="card-title">Mohamed Salah</h5>
+      <p class="card-text">32 Goal</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/asensio.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/premier/harrykane.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Marco Asensio</h5>
-      <p class="card-text">29 Goal</p>
+      <h5 class="card-title">Harry Kane</h5>
+      <p class="card-text">30 Goal</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/griezman.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/premier/aguero.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Antoine Griezman</h5>
-      <p class="card-text">29 Goal</p>
+      <h5 class="card-title">Sergio Aguero</h5>
+      <p class="card-text">21 Goal</p>
     </div>
   </div>
     <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/costa.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/premier/vardy.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Diego Costa</h5>
-      <p class="card-text">27 Goal</p>
+      <h5 class="card-title">Jamie Vardy</h5>
+      <p class="card-text">20 Goal</p>
     </div>
   </div>
     <div class="card">
-    <img class="card-img-top" src="assets/img/foto/laliga/bale.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/img/foto/premier/sterling.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Gareth Bale</h5>
-      <p class="card-text">26 Goal</p>
+      <h5 class="card-title">Raheem Sterling</h5>
+      <p class="card-text">18 Goal</p>
     </div>
   </div>
 </div>
@@ -400,5 +358,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+<script src="assets/js/angular.min.js"></script>
   </body>
 </html>
